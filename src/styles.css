@@ -1,0 +1,156 @@
+h1 {
+  line-height: 44px;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+
+h6 {
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: -30px;
+  font-size: 16px;
+}
+
+a.switch {
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  text-align: center;
+}
+
+footer {
+  display: block;
+  margin: 0 auto;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.container {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.background {
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 360px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("../images/weather/engin-akyurt-1ewscxDy4xE-unsplash.jpg");
+  border-radius: 10px;
+  border: none;
+}
+
+.currently-in {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 24px;
+  position: relative;
+  top: 10px;
+}
+
+.cicon {
+  font-size: 130px;
+  padding: 0;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.ctemp,
+.unit {
+  font-size: 48px;
+  line-height: 36px;
+}
+
+.unit {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.ctype {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 10px;
+}
+
+.current-high-low {
+  padding: 10px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.high-low {
+  text-align: right;
+}
+
+.high-low-temps {
+  text-align: center;
+}
+
+.forecast {
+}
+
+.f1,
+.f2,
+.f3,
+.f4,
+.f5 {
+  margin: 30px 0;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.fday {
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  text-align: center;
+}
+
+.ficon {
+  text-align: center;
+  font-size: 48px;
+  vertical-align: middle;
+}
+
+.ftemps {
+  margin-right: 0;
+}
+
+.fhl {
+  margin: 0;
+  padding: 0;
+}
+
+.fas {
+  text-shadow: rgb(46, 46, 46) 1px 0 5px;
+}
+
+.fa-search,
+.fa-location-arrow {
+  text-shadow: none;
+}
+
+.fa-sun {
+  color: #f8e473;
+}
+
+.fa-cloud {
+  color: #ffffff;
+}
+
+.fa-cloud-showers-heavy {
+  color: #3c77af;
+}
+
+.fa-wind {
+  color: #7db6d3;
+}
+
+.fa-snowflake {
+  color: #ffffff;
+}
