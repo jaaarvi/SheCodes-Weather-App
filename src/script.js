@@ -73,7 +73,8 @@ let geoButton = document.querySelector("#geolocation");
 geoButton.addEventListener("click", callLocation);
 
 
-//On load in update...
+//On load location
+//note: change to set starter location as suggested?
 function onLoad(position) {
   console.log(position);
   let currentUnit = document.querySelector("#temp-unit");
@@ -98,6 +99,7 @@ function onLoad(position) {
 navigator.geolocation.getCurrentPosition(onLoad);
 
 //Get matching time and date
+//note: find way to offset to searched location
 function callTime(response) {
   let utc = Date.now();
   let offsetTime = response;
@@ -120,6 +122,7 @@ function callTime(response) {
 }
 
 //Switching temp units
+//note: further specify location in switch
 function switchUnits(event) {
   event.preventDefault();
   let currentUnit = document.querySelector("#temp-unit");
